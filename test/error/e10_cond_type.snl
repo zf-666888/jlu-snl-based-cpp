@@ -1,0 +1,13 @@
+{Error 10: Condition type issue - comparing with incompatible types}
+program e10
+var integer x;
+    char c;
+begin
+  x := 10;
+  c := 'a';
+  if x < c then
+    write(x)
+  else
+    write(x)
+  fi
+end.

@@ -1,0 +1,8 @@
+{Error 9: Array access on non-array type}
+program e9
+var integer x;
+begin
+  x := 10;
+  x[1] := 20;
+  write(x)
+end.

@@ -1,0 +1,8 @@
+{Error 7: LHS of assignment is not a variable}
+program e7
+type mytype = integer;
+var integer x;
+begin
+  mytype := 10;
+  write(x)
+end.

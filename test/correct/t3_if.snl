@@ -1,0 +1,13 @@
+{Test 3: if-then-else-fi}
+program t3
+var integer x;
+    integer y;
+begin
+  x := 10;
+  if x < 20 then
+    y := 1
+  else
+    y := 0
+  fi;
+  write(y)
+end.

@@ -1,0 +1,7 @@
+{Test 1: Simple assignment and write}
+program t1
+var integer v1;
+begin
+  v1 := 10;
+  write(v1)
+end.

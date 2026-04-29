@@ -1,0 +1,11 @@
+{Test 2: Arithmetic expressions}
+program t2
+var integer a;
+    integer b;
+    integer c;
+begin
+  a := 10;
+  b := 20;
+  c := a + b * 2 - 5;
+  write(c)
+end.

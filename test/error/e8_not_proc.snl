@@ -1,0 +1,7 @@
+{Error 8: Calling a non-procedure identifier}
+program e8
+var integer x;
+begin
+  x := 10;
+  x()
+end.

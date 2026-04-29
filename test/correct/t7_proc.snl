@@ -1,0 +1,11 @@
+{Test 7: Procedure declaration and call}
+program t7
+var integer v1;
+procedure f(integer a);
+  begin
+    write(a)
+  end;
+begin
+  v1 := 42;
+  f(v1)
+end.

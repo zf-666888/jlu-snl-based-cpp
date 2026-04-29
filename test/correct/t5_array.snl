@@ -1,0 +1,9 @@
+{Test 5: Array declaration and access}
+program t5
+var array [1..10] of integer a;
+    integer i;
+begin
+  i := 1;
+  a[i] := i * 2;
+  write(a[i])
+end.

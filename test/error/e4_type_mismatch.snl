@@ -1,0 +1,10 @@
+{Error 4: Type mismatch in assignment}
+program e4
+var integer x;
+    char c;
+begin
+  x := 10;
+  c := 'a';
+  x := c;
+  write(x)
+end.

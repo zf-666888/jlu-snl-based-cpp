@@ -1,0 +1,18 @@
+{Test 8: Nested procedures}
+program t8
+var integer x;
+procedure p();
+  var integer y;
+  procedure q();
+    var integer z;
+    begin
+      z := 1
+    end;
+  begin
+    y := 2;
+    q()
+  end;
+begin
+  x := 0;
+  p()
+end.

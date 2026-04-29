@@ -1,0 +1,9 @@
+{Error 6: Parameter type mismatch}
+program e6
+procedure f(integer a);
+  begin
+    write(a)
+  end;
+begin
+  f('x')
+end.

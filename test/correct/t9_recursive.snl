@@ -1,0 +1,18 @@
+{Test 9: Recursive procedure (factorial)}
+program t9
+var integer result;
+procedure fac(integer n);
+  var integer temp;
+  begin
+    if n < 2 then
+      result := 1
+    else
+      temp := n - 1;
+      fac(temp);
+      result := n * result
+    fi
+  end;
+begin
+  fac(5);
+  write(result)
+end.

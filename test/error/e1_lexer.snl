@@ -1,0 +1,7 @@
+{Error 1: Illegal character}
+program e1
+var integer x;
+begin
+  x := 10 @ 5;
+  write(x)
+end.

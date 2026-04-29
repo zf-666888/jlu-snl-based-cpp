@@ -1,0 +1,8 @@
+{Error 2: Undeclared identifier}
+program e2
+var integer x;
+begin
+  x := 10;
+  y := 20;
+  write(x)
+end.

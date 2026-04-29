@@ -1,0 +1,9 @@
+{Error 5: Parameter count mismatch}
+program e5
+procedure f(integer a; integer b);
+  begin
+    write(a)
+  end;
+begin
+  f(1)
+end.

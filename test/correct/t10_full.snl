@@ -1,0 +1,24 @@
+{Test 10: Comprehensive test}
+program t10
+type intarray = array [1..5] of integer;
+var integer x;
+    integer y;
+    intarray arr;
+procedure swap(integer a; integer b);
+  var integer temp;
+  begin
+    temp := a;
+    a := b;
+    b := temp
+  end;
+begin
+  x := 10;
+  y := 20;
+  arr[1] := x + y;
+  if arr[1] < 50 then
+    write(arr[1])
+  else
+    write(y)
+  fi;
+  swap(x, y)
+end.

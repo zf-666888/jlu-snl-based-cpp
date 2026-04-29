@@ -1,0 +1,9 @@
+{Test 6: Record type}
+program t6
+type rec1 = record integer x; integer y; end;
+var rec1 r;
+begin
+  r.x := 10;
+  r.y := 20;
+  write(r.x)
+end.
